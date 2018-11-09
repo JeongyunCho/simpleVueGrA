@@ -9,11 +9,16 @@ const vm = new Vue({
 
         targetURL : "https://www.google.ca/",
 
+        vuemessge : "Yay! you can haz vue",
+
+        anchorOff : true,
+
         deliciousFruit : [
             { name: "apple", flavour: "tasty" },
             { name: "pear", flavour: "salty" },
             { name: "oramge", flavour: "sweet" },
-        ]
+        ],
+        hazVue : true
     },
 
     methods : {
@@ -22,4 +27,12 @@ const vm = new Vue({
         }
     }
 });
+
+    const vm2 = new vue({
+        el: "#footer",
+
+        data : {
+            footermessage: "this os the footer"
+        }
+    });
 })();
